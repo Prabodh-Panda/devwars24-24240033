@@ -6,7 +6,7 @@ const Hero = () => {
       <nav className="flex justify-between">
         <div className="flex gap-2">
           <div className="h-full w-[2px] bg-dark-primary rounded" />
-          <p>Pankaj + Co.</p>
+          <p className="text-lg">Pankaj + Co.</p>
         </div>
         <div>
           <ul className="flex gap-10 text-lg font-medium">
