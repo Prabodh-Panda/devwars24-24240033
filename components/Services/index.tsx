@@ -14,7 +14,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="flex gap-10 justify-between my-10">
+      <div className="flex gap-10 justify-between my-10 flex-wrap">
         <ServiceTile header="BUSINESS MODEL" imgUrl="/images/model.png">
           You can also use this space for other purposes where the information
           is best presented as mere teasers to other individualised pages.

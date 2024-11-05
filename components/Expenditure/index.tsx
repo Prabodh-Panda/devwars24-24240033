@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Expenditure = () => {
   return (
-    <section className="bg-dark-primary text-white py-10 px-16 text-lg min-h-screen flex justify-between items-center">
+    <section className="bg-dark-primary text-white py-10 px-16 text-lg min-h-screen flex flex-col lg:flex-row justify-between items-center">
       <div>
         <h1 className="font-medium text-3xl">The Expenditure</h1>
-        <p className="max-w-[40vw] my-2">
+        <p className="lg:max-w-[40vw] my-2">
           Share your services or product offerings here. Present them as simple
           headers that can lead out to their pages where you can expound on them
           further. You can also use this space for other purposes where the

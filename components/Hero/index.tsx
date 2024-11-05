@@ -16,8 +16,8 @@ const Hero = () => {
           </ul>
         </div>
       </nav>
-      <main className="flex-1 flex justify-between items-center">
-        <div>
+      <main className="flex-1 flex lg:justify-between items-center flex-col lg:flex-row">
+        <div className="my-10 lg:my-0">
           <h1 className="flex font-bold text-7xl">
             Experience <br />
             excellence <br />
@@ -28,7 +28,7 @@ const Hero = () => {
             Learn More
           </button>
         </div>
-        <div className="relative w-[50vw] h-[85vh] flex justify-end">
+        <div className="relative w-[90vw] h-[60vh] lg:w-[50vw] lg:h-[85vh] flex justify-end">
           <Image
             src="/images/hero.png"
             alt="Hero Image"
